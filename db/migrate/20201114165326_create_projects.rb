@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration[6.0]
       t.string :name
       t.text :description
       t.text :body
-      t.string :categoty
+      t.string :category
       t.string :repo_link
 
       t.timestamps
