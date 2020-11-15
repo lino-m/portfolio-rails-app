@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_11_14_165326) do
     t.string "name"
     t.text "description"
     t.text "body"
-    t.string "categoty"
+    t.string "category"
     t.string "repo_link"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
